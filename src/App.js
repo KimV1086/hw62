@@ -1,19 +1,25 @@
-import React, {Component} from 'react';
-import {BrowserRouter, Switch, Route} from "react-router-dom";
-import MainContainer from "./conteiner/MainContainer";
-import About from "./components/About/About";
+import React, {Component, Fragment} from 'react';
+import {BrowserRouter, Route, Switch} from "react-router-dom";
+import Home from "./components/Home/Home"
+import MainMovie from "./conteiners/MainMovie/MainMovie";
 import Contacts from "./components/Contacts/Contacts";
 
 class App extends Component {
     render() {
         return (
-            <BrowserRouter>
-                <Switch>
-                    <Route path='/' exact component={MainContainer} />
-                    <Route path='/about' component={About} />
-                    <Route path='/contacts' component={Contacts} />
-                </Switch>
-            </BrowserRouter>
+            <Fragment>
+                <BrowserRouter>
+                    <div className="container">
+                        <Switch>
+                            <Route path='/' exact component={Home} />
+                            <Route path='/movie' component={MainMovie} />
+                            <Route path='/contacts' component={Contacts} />
+                        </Switch>
+                    </div>
+
+                </BrowserRouter>
+            </Fragment>
+
         );
     }
 }

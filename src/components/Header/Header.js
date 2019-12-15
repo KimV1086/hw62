@@ -12,7 +12,7 @@ const Header = props => {
                             <NavLink to="/" exact>Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/about">About</NavLink>
+                            <NavLink to="/movie">Movie</NavLink>
                         </li>
                         <li>
                             <NavLink to="/contacts">Contacts</NavLink>
