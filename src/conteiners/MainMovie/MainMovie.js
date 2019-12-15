@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import Movie from '../../components/Movie/Movie';
 import Header from "../../components/Header/Header";
 
-function App() {
+function MainMovie() {
     return (
         <Fragment>
             <Header/>
@@ -26,4 +26,4 @@ function App() {
     );
 }
 
-export default App;
+export default MainMovie;

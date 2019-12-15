@@ -1,0 +1,18 @@
+.movieWrap {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+.movieName {
+    border: 1px solid #000000;
+    padding: 0 15px;
+    width: 100%;
+}
+.movieName h4 {
+    color: #000000;
+    font-size: 20px;
+}
+.movieName img {
+    width: 100%;
+    height: 350px;
+}

@@ -1,15 +1,14 @@
 import React, {Fragment} from 'react';
-import Header from "../Header/Header";
+import "./Bingo.css"
 
-const Home = props => {
+const Bingo = props => {
     return (
         <Fragment>
-            <Header/>
             <div className="main">
-                <h1>Home page</h1>
+                <div className="circle_div">{props.num}</div>
             </div>
         </Fragment>
     );
 };
 
-export default Home;
+export default Bingo;

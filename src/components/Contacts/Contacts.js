@@ -6,7 +6,7 @@ const Contacts = props => {
         <Fragment>
             <Header/>
             <div className="main">
-                <h1>Contacts</h1>
+                <h1>JS5</h1>
             </div>
         </Fragment>
     );
