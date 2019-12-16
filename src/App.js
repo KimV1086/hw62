@@ -12,13 +12,12 @@ class App extends Component {
                 <BrowserRouter>
                     <div className="container">
                         <Switch>
-                            <Route path='/' exact component={Contacts} />
-                            <Route path='/movie' component={MainMovie} />
-                            <Route path='/form' component={AddMovie} />
+                            <Route path='/' exact component={Contacts}/>
+                            <Route path='/movie' component={MainMovie}/>
+                            <Route path='/form' component={AddMovie}/>
                             <Route path='/bingo' component={MainBingo}/>
                         </Switch>
                     </div>
-
                 </BrowserRouter>
             </Fragment>
 
